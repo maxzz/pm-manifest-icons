@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { DefFieldTypes } from './field';
 
 export * from './field';
