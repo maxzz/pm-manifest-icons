@@ -1,0 +1,26 @@
+{
+    "name": "pm-manifest-icons",
+    "version": "1.0.0",
+    "description": "PM manifest icons",
+    "type": "module",
+    "main": "src/index.tsx",
+    "files": [
+        "./src"
+    ],
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/maxzz/pm-manifest-icons.git"
+    },
+    "scripts": {
+        "dev": "tsc -w"
+    },
+    "devDependencies": {
+        "@types/react": "^18.2.14",
+        "react": "^18.2.0",
+        "typescript": "^5.1.6"
+    },
+    "peerDependencies": {
+        "react": "^16.x || ^17.x || ^18.x"
+    }
+}
