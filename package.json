@@ -1,6 +1,6 @@
 {
     "name": "pm-manifest-icons",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "PM manifest icons",
     "type": "module",
     "main": "src/index.tsx",
