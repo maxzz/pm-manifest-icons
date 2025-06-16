@@ -1,6 +1,6 @@
 import { HTMLAttributes, SVGAttributes } from 'react';
 
-export function SymbolDefFieldEdt() {
+export function SvgSymbolFieldEdt() {
     return (<>
         <symbol id="ifield-edt" viewBox="0 0 24 24">
             <path d="M2.05 6.01h19.89v11.98H2.05z" />

@@ -2,7 +2,7 @@ import { HTMLAttributes, SVGAttributes } from 'react';
 
 // field use-it
 
-export function SymbolDefFieldUseIt1() {
+export function SvgSymbolFieldUseIt1() {
     return (<>
         <symbol id="ifield-useit-1" viewBox="0 0 24 24">
             <path d="m3.1 12 5.94 5.94L20.9 6.06" />
