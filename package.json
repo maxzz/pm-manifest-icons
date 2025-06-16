@@ -12,15 +12,17 @@
         "type": "git",
         "url": "git+https://github.com/maxzz/pm-manifest-icons.git"
     },
-    "scripts": {
-        "dev": "tsc -w"
-    },
     "devDependencies": {
-        "@types/react": "^18.2.14",
-        "react": "^18.2.0",
+        "@types/react": "^18.2.0 || ^19",
         "typescript": "^5.1.6"
     },
     "peerDependencies": {
-        "react": "^16.x || ^17.x || ^18.x"
+        "react": "^18.2.0 || ^19",
+        "react-dom": "^18.2.0 || ^19"
+    },
+    "scripts": {
+        "dev": "tsc -w",
+        "prepublish": "pnpm run build",
+        "to-npm": "pnpm publish --no-git-checks"
     }
 }
