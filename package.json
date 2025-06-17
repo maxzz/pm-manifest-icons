@@ -22,7 +22,6 @@
     },
     "scripts": {
         "dev": "tsc -w",
-        "no_need_prepublish": "pnpm run build",
         "to-npm": "pnpm publish --no-git-checks"
     }
 }
